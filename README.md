@@ -16,7 +16,7 @@ Accessions - loadings (graph): Loadings plot of the above PCA. Reveals overall r
 Selected accessions (table): Information on either all 948 CORE accessions included (select Full-colors in "Chose a color" dropdown), or those above a certain threshold when focusing on a particular cluster (select color "Chose a color", modulate threshold likelihood using slider).
 
 ## Use
-"plotexamples.py" takes three arguments: 
+"plot_examples.py" takes three arguments: 
   - Analysis ID: [PAG]
   - Chromosome selected: [1]
   - reference population: [Indica; Japonica; Aus]
@@ -29,12 +29,12 @@ Selected accessions (table): Information on either all 948 CORE accessions inclu
   
   Explore!
 
-# python modules required:
+# python modules required (from dash-plotly):
 
-pip install dash==0.19.0  # The core dash backend
-pip install dash-renderer==0.11.1  # The dash front-end
-pip install dash-html-components==0.8.0  # HTML components
-pip install dash-core-components==0.14.0  # Supercharged components
-pip install plotly --upgrade  # Plotly graphing library used in examples
-pip install pandas  # library for working with data
+pip install dash==0.19.0  # The core dash backend;
+pip install dash-renderer==0.11.1  # The dash front-end;
+pip install dash-html-components==0.8.0  # HTML components;
+pip install dash-core-components==0.14.0  # Supercharged components;
+pip install plotly --upgrade  # Plotly graphing library used in examples;
+pip install pandas  # library for working with data;
 
