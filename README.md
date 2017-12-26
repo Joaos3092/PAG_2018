@@ -9,7 +9,7 @@ The web application created allows you to explore key details of variation extra
 
 Cluster observations (graph): Principal component analysis of clusters extracted. Colors derive from a simple kmeans clustering at K == 9.
 
-Likelihood density (graph): density plot of mean likelihood of each accessins for clusters of a given color.
+Likelihood density (graph): density plot of mean likelihood of each accessions for clusters of a given color.
 
 Accessions - loadings (graph): Loadings plot of the above PCA. Reveals overall relationships between accessions given the clusters selected for this analysis. color-code: Blue= Japonica; yellow= circumAus; red= Indica; purple= Admix; green= cBasmati.
 
