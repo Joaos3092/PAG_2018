@@ -24,7 +24,7 @@ Visit the [Application](https://pag18-plots.herokuapp.com/) hosted on Heroku ser
 Because heroku servers have a limited number of dynos, the application can get crowded.
 You will still need an internet connection to load the layout, but you will be runninng it locally.
 
-Just run the script app.py, e.g. '$python app.py'
+**Locally:**Just run the script app.py, e.g. '$python app.py'
 
   Select a color in "Chose a color" dropdown: these refer to colors in "Cluster observations". A density plot of mean likelihood by accession across these clusters is drawn. Accessions whose mean exceeds the threshold in the above slider now appear in red in "Accessions - loadings", detailed information about them in the "selected accessions" table.
   
