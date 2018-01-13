@@ -16,15 +16,16 @@ Accessions - loadings (graph): Loadings plot of the above PCA. Reveals overall r
 Selected accessions (table): Information on either all 948 CORE accessions included (select Full-colors in "Chose a color" dropdown), or those above a certain threshold when focusing on a particular cluster (select color "Chose a color", modulate threshold likelihood using slider).
 
 ## Use
-"plot_examples.py" takes three arguments: 
-  - Analysis ID: [PAG]
-  - Chromosome selected: [1]
-  - reference population: [Indica; Japonica; Aus]
- 
- e.g. $plot_examples.py PAG 1 Indica
+**Online:**
 
-  For a traditional use, leave dropdown at "Full-colors", explore overall relationships between accessions.
-  
+Visit the [Application](https://pag18-plots.herokuapp.com/) hosted on Heroku servers.
+
+**Offline:**
+Because heroku servers have a limited number of dynos, the application can get crowded.
+You will still need an internet connection to load the layout, but you will be runninng it locally.
+
+Just run the script app.py, e.g. '$python app.py'
+
   Select a color in "Chose a color" dropdown: these refer to colors in "Cluster observations". A density plot of mean likelihood by accession across these clusters is drawn. Accessions whose mean exceeds the threshold in the above slider now appear in red in "Accessions - loadings", detailed information about them in the "selected accessions" table.
   
   Explore!
