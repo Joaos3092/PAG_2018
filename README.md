@@ -6,6 +6,7 @@ In this repo you will find the code and data to reproduce the examples in Fig. 3
 The web application created allows you to explore key details of variation extracted from the selected regions:
 
 ## App features
+Range slider focuses analysis on specified region, updates ideogram to show only that region.
 
 Cluster observations (graph): Principal component analysis of clusters extracted. Colors derive from a simple kmeans clustering at K == 9.
 
@@ -33,10 +34,10 @@ You will still need an internet connection to load the layout, but you will be r
 
 # python modules required (from dash-plotly):
 
-pip install dash==0.19.0  # The core dash backend;
-pip install dash-renderer==0.11.1  # The dash front-end;
-pip install dash-html-components==0.8.0  # HTML components;
-pip install dash-core-components==0.14.0  # Supercharged components;
-pip install plotly --upgrade  # Plotly graphing library used in examples;
-pip install pandas  # library for working with data;
+pip install dash==0.19.0  # The core dash backend
+pip install dash-renderer==0.11.1  # The dash front-end
+pip install dash-html-components==0.8.0  # HTML components
+pip install dash-core-components==0.14.0  # Supercharged components
+pip install plotly --upgrade  # Plotly graphing library used in examples
+pip install pandas  # library for working with data
 
